@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@deno/mod.js';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@v0.0.0-deno/mod.js';
 ```
 
 #### isAlmostEqual( a, b, maxULP )
@@ -97,7 +97,7 @@ var bool = isAlmostEqual( 0.0, -0.0, 0 );
 
 ```javascript
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@deno/mod.js';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@v0.0.0-deno/mod.js';
 
 var bool = isAlmostEqual( 1.0, 1.0+EPS, 1 );
 console.log( bool );
