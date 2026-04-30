@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@esm/index.mjs';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@v0.0.0-esm/index.mjs';
 ```
 
 #### isAlmostEqual( a, b, maxULP )
@@ -102,7 +102,7 @@ var bool = isAlmostEqual( 0.0, -0.0, 0 );
 <script type="module">
 
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@esm/index.mjs';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@v0.0.0-esm/index.mjs';
 
 var bool = isAlmostEqual( 1.0, 1.0+EPS, 1 );
 console.log( bool );
