@@ -19,32 +19,32 @@
 'use strict';
 
 var EPS = require( '@stdlib/constants-float64-eps' );
-var isAlmostEqualValue = require( './../lib' );
+var isAlmostEqual = require( './../lib' );
 
-var bool = isAlmostEqualValue( 1.0, 1.0+EPS, 1 );
+var bool = isAlmostEqual( 1.0, 1.0+EPS, 1 );
 console.log( bool );
 // => true
 
-bool = isAlmostEqualValue( 1.0+EPS, 1.0, 1 );
+bool = isAlmostEqual( 1.0+EPS, 1.0, 1 );
 console.log( bool );
 // => true
 
-bool = isAlmostEqualValue( 1.0, 1.0+EPS+EPS, 1 );
+bool = isAlmostEqual( 1.0, 1.0+EPS+EPS, 1 );
 console.log( bool );
 // => false
 
-bool = isAlmostEqualValue( 1.0, 1.0+EPS, 0 );
+bool = isAlmostEqual( 1.0, 1.0+EPS, 0 );
 console.log( bool );
 // => false
 
-bool = isAlmostEqualValue( -0.0, 0.0, 0 );
+bool = isAlmostEqual( -0.0, 0.0, 0 );
 console.log( bool );
 // => true
 
-bool = isAlmostEqualValue( 1.0, NaN, 1 );
+bool = isAlmostEqual( 1.0, NaN, 1 );
 console.log( bool );
 // => false
 
-bool = isAlmostEqualValue( NaN, NaN, 1 );
+bool = isAlmostEqual( NaN, NaN, 1 );
 console.log( bool );
 // => false

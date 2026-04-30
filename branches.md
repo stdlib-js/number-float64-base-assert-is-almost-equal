@@ -38,19 +38,19 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/assert/is-almost-equal-value"
-%% click B href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/main"
-%% click C href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/production"
-%% click D href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/esm"
-%% click E href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/deno"
-%% click F href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/assert/is-almost-equal"
+%% click B href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/main"
+%% click C href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/production"
+%% click D href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/esm"
+%% click E href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/deno"
+%% click F href "https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/umd"
 ```
 
-[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/assert/is-almost-equal-value
-[production-url]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/production
-[deno-url]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/deno
-[deno-readme]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/umd
-[umd-readme]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/tree/esm
-[esm-readme]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal-value/blob/esm/README.md
+[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/number/float64/base/assert/is-almost-equal
+[production-url]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/production
+[deno-url]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/deno
+[deno-readme]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/umd
+[umd-readme]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tree/esm
+[esm-readme]: https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/blob/esm/README.md

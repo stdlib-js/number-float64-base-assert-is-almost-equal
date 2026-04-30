@@ -34,30 +34,30 @@
 * @example
 * var EPS = require( '@stdlib/constants-float64-eps' );
 *
-* var bool = isAlmostEqualValue( 1.0, 1.0+EPS, 1 );
+* var bool = isAlmostEqual( 1.0, 1.0+EPS, 1 );
 * // returns true
 *
-* bool = isAlmostEqualValue( 1.0+EPS, 1.0, 1 );
+* bool = isAlmostEqual( 1.0+EPS, 1.0, 1 );
 * // returns true
 *
-* bool = isAlmostEqualValue( 1.0, 1.0+EPS+EPS, 1 );
+* bool = isAlmostEqual( 1.0, 1.0+EPS+EPS, 1 );
 * // returns false
 *
-* bool = isAlmostEqualValue( 1.0, 1.0+EPS, 0 );
+* bool = isAlmostEqual( 1.0, 1.0+EPS, 0 );
 * // returns false
 *
-* bool = isAlmostEqualValue( 0.0, -0.0, 0 );
+* bool = isAlmostEqual( 0.0, -0.0, 0 );
 * // returns true
 *
-* bool = isAlmostEqualValue( 1.0, NaN, 1 );
+* bool = isAlmostEqual( 1.0, NaN, 1 );
 * // returns false
 *
-* bool = isAlmostEqualValue( NaN, NaN, 1 );
+* bool = isAlmostEqual( NaN, NaN, 1 );
 * // returns false
 */
-declare function isAlmostEqualValue( a: number, b: number, maxULP: number ): boolean;
+declare function isAlmostEqual( a: number, b: number, maxULP: number ): boolean;
 
 
 // EXPORTS //
 
-export = isAlmostEqualValue;
+export = isAlmostEqual;

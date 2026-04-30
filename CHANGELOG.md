@@ -2,15 +2,25 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.0.1">
 
-## Unreleased (2025-07-11)
+## 0.0.1 (2026-02-08)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2026-01-30)
 
 <section class="features">
 
 ### Features
 
--   [`e38f5ec`](https://github.com/stdlib-js/stdlib/commit/e38f5ecf382db6ed19fc3b66d75801fbf9909843) - add `number/float64/base/assert/is-almost-equal-value` [(#7473)](https://github.com/stdlib-js/stdlib/pull/7473)
+-   [`d10932c`](https://github.com/stdlib-js/stdlib/commit/d10932c2a1f70d4b26332abd0bc80ea09848618a) - add `number/float64/base/assert/is-almost-equal`
 
 </section>
 
@@ -22,8 +32,7 @@
 
 <details>
 
--   [`bc8edad`](https://github.com/stdlib-js/stdlib/commit/bc8edad112684c9bb6aa1e05f76bdb8a9e1f331c) - **docs:** fix examples _(by Karan Anand)_
--   [`e38f5ec`](https://github.com/stdlib-js/stdlib/commit/e38f5ecf382db6ed19fc3b66d75801fbf9909843) - **feat:** add `number/float64/base/assert/is-almost-equal-value` [(#7473)](https://github.com/stdlib-js/stdlib/pull/7473) _(by Karan Anand, Athan Reines)_
+-   [`d10932c`](https://github.com/stdlib-js/stdlib/commit/d10932c2a1f70d4b26332abd0bc80ea09848618a) - **feat:** add `number/float64/base/assert/is-almost-equal` _(by Karan Anand)_
 
 </details>
 
@@ -35,9 +44,8 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Athan Reines
 -   Karan Anand
 
 </section>
