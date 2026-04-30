@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float64-base-assert-is-almost-equal/tags). For example,
+
+```javascript
 import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@v0.0.0-esm/index.mjs';
 ```
 
@@ -102,7 +107,7 @@ var bool = isAlmostEqual( 0.0, -0.0, 0 );
 <script type="module">
 
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@v0.0.0-esm/index.mjs';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@esm/index.mjs';
 
 var bool = isAlmostEqual( 1.0, 1.0+EPS, 1 );
 console.log( bool );
